@@ -9,3 +9,48 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+#akanForm :hover {
+    color: red;
+    text-decoration: underline;
+}
+#calculatorForm :hover {
+    color: red;
+    text-decoration: underline;
+}
+header {
+    text-align: center;
+}
+header :hover {
+    color: brown;
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-decoration: dotted underline;
+    text-box: green;
+    text-box-edge: underline;
+    flex-direction: row;
+}
+form button{
+    background-color: aquamarine
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: dotted;
+    text-align: center;
+    text-decoration-color: brown;
+}
+form input{
+    border-style: hidden;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid darkblue;
+    border-radius: 4px;    
+}
