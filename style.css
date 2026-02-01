@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+h1 {
+    color: darkblue;
+}
+#gender-selection {
+    display: flex;
+    flex-direction: column;
+}
