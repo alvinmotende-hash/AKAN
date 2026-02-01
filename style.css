@@ -19,6 +19,7 @@ h1 {
 }
 header {
     text-align: center;
+    background-color: bisque;
 }
 header :hover {
     color: brown;
@@ -26,6 +27,7 @@ header :hover {
 }
 h2 {
     text-align: center;
+    background-color: lightblue;
 }
 form{
     display: flex;
@@ -35,7 +37,7 @@ form{
     text-decoration: dotted underline;
     text-box: green;
     text-box-edge: underline;
-    flex-direction: row;
+    flex-direction: column;
 }
 form button{
     background-color: aquamarine
@@ -53,4 +55,20 @@ form input{
     padding: 5px;
     border: 2px solid darkblue;
     border-radius: 4px;    
+}
+#akanForm {
+    border-style: dotted;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid darkblue;
+    border-radius: 4px;   
+    background-color: lightgreen;
+}
+#calculatorForm {
+    border-style: dotted;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid darkblue;
+    border-radius: 4px;   
+    background-color: lightgreen;
 }
