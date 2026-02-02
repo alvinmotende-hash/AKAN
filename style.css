@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Body Styling */
 body {
   background: beige;
   color: lightgreen;
@@ -14,7 +13,6 @@ body {
   padding: 20px;
 }
 
-/* Header */
 header {
   text-align: center;
   background: lightgreen;
@@ -29,13 +27,6 @@ header h1 {
   margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1rem;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-/* Sections */
 section {
   background: #fff;
   padding: 20px;
@@ -45,7 +36,6 @@ section {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Form Styling */
 form {
   display: flex;
   flex-direction: column;
@@ -69,19 +59,18 @@ input:focus, select:focus {
   outline: none;
 }
 
-/* Button */
 button {
-  background: #4a148c;
+  background: lightgreen;
   color: #fff;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 button:hover {
-  background: #6a1b9a;
+  color: red;
+  text-decoration: line-through;
 }
 
-/* Results */
 #result h3 {
   margin-top: 15px;
   color: #4a148c;
