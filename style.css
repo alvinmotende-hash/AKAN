@@ -83,13 +83,3 @@ button:hover {
   margin-top: 10px;
   text-align: center;
 }
-
-/* Responsive */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 1.8rem;
-  }
-  section {
-    padding: 15px;
-  }
-}
