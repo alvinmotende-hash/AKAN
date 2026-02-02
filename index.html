@@ -1,56 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Akan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Akan</title>
 </head>
 <body>
-    <header>
-        <h1>Akan name generator </h1>
-        <p>Akan name generator is a tool that produces traditional Ghanaian Akan names, often based on cultural naming practices such as the day of the week a child is born, gender, and symbolic meanings. It helps users discover authentic names reflecting Akan heritage and identity.</p>
-    </header>
-    <main>
-        <section id="name-generator">
-            <h2>Generate your Akan name</h2>
-            <!-- Inline call added here -->
-            <form id="akanForm" onsubmit="return getAkanName();">
-                <label for="birthDay">Select your birth day:</label>
-                <select id="birthDay" name="birthDay" required>
-                    <option value="">Please choose an option</option> 
-                    <option value="Sunday">Sunday</option>
-                    <option value="Monday">Monday</option>
-                    <option value="Tuesday">Tuesday</option>
-                    <option value="Wednesday">Wednesday</option>
-                    <option value="Thursday">Thursday</option>
-                    <option value="Friday">Friday</option>
-                    <option value="Saturday">Saturday</option>
-                </select>
+  <header>
+    <h1>Akan Name Generator</h1>
+    <p>
+      Akan name generator is a tool that produces traditional Ghanaian Akan names,
+      based on cultural naming practices such as the day of the week a child is born
+      and gender. It helps users discover authentic names reflecting Akan heritage
+      and identity.
+    </p>
+  </header>
 
-                <label for="gender">Select your gender:</label>
-                <select id="gender" name="gender" required>
-                    <option value="">Please choose an option</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-                <button type="submit">Generate Akan Name</button>   
-            </form>
-        </section>
-        <section id="result">
-            <h3>Your Akan Name is;</h3>
-            <p id="akanName"></p>
-        </section>
-        <section id="calculator">
-            <h2>Calculate the day of the week</h2>
-            <form id="calculatorForm" onsubmit="return calculateDayOfWeek();">
-                <label for="birthDate">Enter your birth date:</label>
-                <input type="date" id="birthDate" required>
-                <button type="submit">Calculate Day</button>
-            </form>
-            <h3>The day of the week is; </h3>
-        </section>
-    </main>
-    <script src="script.js"></script>
+  <main>
+    <section id="name-generator">
+      <h2>Generate your Akan name</h2>
+      <!-- Single unified form -->
+      <form id="akanForm" onsubmit="return getAkanName();">
+        <label for="birthDate">Enter your birth date:</label>
+        <input type="date" id="birthDate" required>
+
+        <label for="gender">Select your gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Please choose an option</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <button type="submit">Generate Akan Name</button>
+      </form>
+    </section>
+
+    <section id="result">
+      <h3>The day of the week is:</h3>
+      <p id="dayResult"></p>
+      <h3>Your Akan Name is:</h3>
+      <p id="akanName"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
