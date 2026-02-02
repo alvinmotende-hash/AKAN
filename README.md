@@ -22,4 +22,4 @@ No known bugs
 ## contact
 @AM.gmail.com
 ## License
-The content of this site is licensed under the MIT license Copyright (c) 2026
+The content of this site is licensed under the MIT license Copyright (c) 2026Triggering rebuild
