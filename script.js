@@ -8,7 +8,7 @@ function getAkanName() {
   }
 
   const date = new Date(birthDate);
-  const dayIndex = date.getDay(); // 0 = Sunday
+  const dayIndex = date.getDay();
   const daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   const maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
   const femaleNames = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
