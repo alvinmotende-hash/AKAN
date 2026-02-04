@@ -17,8 +17,8 @@ function getAkanName() {
   const dayName = daysOfWeek[dayIndex];
   const akanName = gender === "male" ? maleNames[dayIndex] : femaleNames[dayIndex];
 
-  document.getElementById("dayResult").textContent = `📅 You were born on: ${dayName}`;
-  document.getElementById("akanName").textContent = `✨ Your Akan name is: ${akanName}`;
+  document.getElementById("dayResult").textContent = ` You were born on: ${dayName}`;
+  document.getElementById("akanName").textContent = ` Your Akan name is: ${akanName}`;
 
   return false;
 }
