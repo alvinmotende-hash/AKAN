@@ -7,7 +7,6 @@ function getAkanName() {
     return false;
   }
 
-  // Use JS Date object
   const date = new Date(birthDate);
   const dayIndex = date.getDay(); // 0 = Sunday
   const daysOfWeek = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
